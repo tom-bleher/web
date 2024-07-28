@@ -194,7 +194,7 @@ body {
   counter-reset: theorem definition sidenote-counter;
 
   color: var(--body-color);
-  background-color: var(--body-bg-color);
+  background-color: white;
 
   text-rendering: optimizeLegibility;
 }
@@ -728,4 +728,17 @@ h4,
 h5,
 h6 {
   margin-bottom: 0.8rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  flex: 1;
+}
+.right {
+  flex: 1;
+  text-align: right;
 }
