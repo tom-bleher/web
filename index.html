@@ -22,116 +22,52 @@
 
 <body id="top">
   <header>
-    <h1><span class="latex">T<span>o</span>M<span>B</span>l<span>E<span>h<span>E<span>r</span></h1>
+    <center><h2>Introduction to Tom Bleher</h2></center> 
     <p class="author">
-      Vincent Dörig <br />
-      May 2020
+      Tom Bleher <br />
+      August 2024
     </p>
   </header>
-
+ 
   <div class="abstract">
     <h2>Abstract</h2>
     <p>
-      This almost class-less CSS library turns your HTML document into a
-      website that looks like a
-      <span class="latex">L<span>a</span>T<span>e</span>X</span>
-      document. Write semantic HTML, add
-      <code class="language-html">&lt;link rel="stylesheet"
-          href="https://latex.vercel.app/style.css"&gt;</code>
-      to the <code class="language-html">&lt;head&gt;</code> of your project and you are good to go.
-      The source code can be found on GitHub at
-      <a href="https://github.com/vincentdoerig/latex-css">https://github.com/vincentdoerig/latex-css</a>.
+    
     </p>
   </div>
+
 
   <nav role="navigation" class="toc">
     <h2>Contents</h2>
     <ol>
-      <li><a href="#getting-started">Getting Started</a></li>
-      <li>
-        <a href="#class-based-elements">Class-based Elements</a>
-        <ol>
-          <li><a href="#author-abstract">Author and Abstract</a></li>
-          <li>
-            <a href="#tdpl">Theorems, Definitions and Proofs</a>
-            <ol>
-              <li><a href="#proofs-theorems">Proofs & Theorems</a></li>
-              <li><a href="#lemmas">Lemmas</a></li>
-              <li><a href="#definitions">Definitions</a></li>
-            </ol>
-          </li>
-          <li><a href="#paragraphs">Paragraphs</a></li>
-          <li><a href="#table-classes">Table Classes</a>
-            <ol>
-              <li><a href="#table-borders">Custom Table Borders</a></li>
-              <li><a href="#table-column-aligment">Table Column Alignment</a></li>
-            </ol>
-          </li>
-        </ol>
-      </li>
-      <li><a href="#language-support">Language Support</a></li>
-      <li><a href="#sidenotes">Sidenotes</a></li>
-      <li><a href="#dark-mode">Dark Mode</a></li>
-      <li><a href="#alternative-typeface">Alternative Typeface</a></li>
-      <li>
-        <a href="#html-elements">HTML Elements</a>
-        <ol>
-          <li><a href="#text-formatting">Text Formatting</a></li>
-          <li><a href="#blockquotes">Blockquotes</a></li>
-          <li><a href="#definition-lists">Definition Lists</a></li>
-          <li><a href="#tables">Tables</a></li>
-          <li><a href="#images">Images</a></li>
-        </ol>
-      </li>
-      <li>
-        <a href="#miscellaneous">Miscellaneous</a>
-        <ol>
-          <li><a href="#scroll-overflow">Scroll Overflow</a></li>
-          <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
-        </ol>
-      </li>
+      <li><a href="#getting-started">Introduction</a></li>
+      <li><a href="#class-based-elements">Resume</a></li>
+      <li><a href="#author-abstract">Research</a></li>
     </ol>
   </nav>
 
+
   <main>
     <article>
-      <h2 id="getting-started">Getting Started</h2>
-      <ul>
-        <li>
-          Add
-          <code class="language-html">&lt;link rel="stylesheet"
-              href="https://latex.vercel.app/style.css"&gt;</code>
-          to the <code class="language-html">&lt;head&gt;</code> of your website or install the
-          package using <code>npm install latex.css</code>.
-        </li>
-        <li>
-          (optional) Add any classes to elements described in the
-          <a href="#class-based-elements">next section</a>.
-        </li>
-        <li>
-          (optional) Add dark mode by adding the <code>latex-dark-auto</code> class to the <code
-            class="language-html">&lt;body&gt;</code>.
-          More infos <a href="#dark-mode">here</a>.
-        </li>
-        <li>
-          (optional) If you need support for
-          <span class="latex">L<span>a</span>T<span>e</span>X</span> math, add
-          the following script to include
-          <a href="https://www.mathjax.org/">MathJax</a>:
-          <pre><code class="language-html">&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></pre>
-        </li>
-        <li>
-          (optional) If you need syntax highlighting, add
-          the following script to include
-          <a href="https://prismjs.com/">Prism</a> and the Prism LaTeX stylesheet (or use any other):
-          <pre><code class="language-html">&lt;link rel="stylesheet" href="https://latex.vercel.app/prism/prism.css"&gt;
+      <h2 id="getting-started">Introduction</h2>
+      I am a bachlors student at Tel Aviv University studying Physics and Mathematics. Some of my current interests are: Fusion energy, Nuclear physics, and Mathematical physics. 
+      <center>
+      <figure>
+        <img src="Media/selfie.jpg"
+          loading="lazy" alt="Mountain landscape" width="40%" height="20%" />
+        <figcaption>
+          Figure 1: Tom Bleher in a selfie with Max Planck, IPP Greifswald
+        </figcaption>
+      </figure>      
+      </center>
+      
 
-&lt;script src="https://cdn.jsdelivr.net/npm/prismjs/prism.min.js"&gt;&lt;/script&gt;</code></pre>
-        </li>
-        <li>Done.</li>
-      </ul>
+      <h2 id="class-based-elements">Resume</h2>
 
-      <h2 id="class-based-elements">Class-based Elements</h2>
+      <embed src="Media/bleher_cv.pdf" type="application/pdf" width="100%" height="600px" />
+      <iframe src="Media/bleher_cv.pdf" width="100%" height="600px"></iframe>
+
+
       <h3 id="author-abstract">Author and Abstract</h3>
       <p>
         Use the following code to add an author and abstract to your document.
@@ -598,8 +534,7 @@
         <img src="https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&fit=crop&w=1000&q=80"
           loading="lazy" alt="Mountain landscape" width="600" height="400" />
         <figcaption>
-          Mountain landscape by
-          <a href="https://unsplash.com/@heytowner">John Towner</a>.
+          Figure 1: Visualisation of Tom Bleher in Euclidean space
         </figcaption>
       </figure>
 
