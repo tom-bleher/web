@@ -19,80 +19,194 @@
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="prism/prism.css" />
 
-  <nav role="navigation" class="toc">
-    <h2>Contents</h2>
-    <ol>
-      <li><a href="about.html">Introduction</a></li>
-      <li><a href="research.html">Research</a></li>
-      <li><a href="lecture_notes.html">Lecture Notes</a></li>
-      <li><a href="blog.html">Blog</a></li>
- 
-  </nav>
-  
 </head>
-  <body>
+
+<body id="top">
+  <header>
+    <center><h2>A Study of Tom Bleher: A dreamer Committed to Growth</h2></center>
+    <p class="author">
+      Tom Bleher<sup><a href="mailto: tombleher@tauex.tau.ac.il" style= "text-decoration: none; color:black;" id="ref1">*</a></sup><br />
+      Aug 2024
+    </p>
+      <center>
+        <a href="mailto: tombleher@tauex.tau.ac.il" style= "text-decoration: none; color:black;" id="ref1">* Corresponding author: tombleher@tauex.tau.ac.il</a></sup><br />
+      </center>
+    </p>
+
+  </header>
+
+  <div class="abstract">
+    <h2>Abstract</h2>
+    <p>
+      This site explores the life and work of Tom Bleher, a student interested in Physics and Mathematics. By examining pivot moments in his life, the site aims to familiarize the reader with his academics and personal journey. Insights into his natural passion and devotion are highlighted, providing an overview of his pursuits and aspirations.</p>
+  </div>
+
   <main>
-    <article>
-      <h2 id="introduction">1.1 Introduction</h2>
-      I am a bachelor's student at Tel Aviv University studying Physics and Mathematics. Some of my current interests are: Fusion energy, Nuclear physics, and Mathematical physics. My <b>CV</b> can be found <a href="Media/bleher_cv.pdf">here</a>.
-      <center>
-      <figure>
-        <img src="Media/selfie.jpg"
-          width="40%" height="20%" />
-        <figcaption>
-          Figure 1: Selfie with Max Planck, Max Planck for Plasma Physics, Greifswald
-        </figcaption>
-      </figure>      
-      </center>
+
+    <nav role="navigation" class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#introduction">Introduction</a>
+          <ol>
+            <li>About</li>
+            <li>Resume</li>
+          </ol>
+        </li>  
+        <li><a href="#research">Research</a>
+          <ol>
+            <li>Internships</li>
+            <ol>
+              <li>Max Planck Institute for Plasma Physics</li>
+              <li>Institut National de la Recherche Scientifique</li>
+            </ol>
+          </ol>
+        </li>
+        <li>Activities
+          <ol><li>MEET - Middle East Entrepreneurs of Tomorrow</li></ol>
+        </li>
+        <li><a href="#lecnotes">Lecture Notes</a>
+          <ol> 
+            <li>Analysis I</li>
+          </ol>
+        </li>
+        <li><a href="#appendix">Appendix</a>
+          <ol>
+            <li>Resources
+              <ol><li>Talks, Git Repositories</li></ol>
+            </li>
+            <li>Gallery</li>
+          </ol>
+        </li>
+      </ol>
+    </nav>
+    
+
+        <h2 id="introduction">Introduction</h2>
+        I am a bachelor's student at Tel Aviv University studying Physics and Mathematics. Some of my current interests are: Fusion energy, Nuclear physics, and Mathematical physics. My <b>CV</b> can be found <a href="Media/bleher_cv.pdf">here</a>.
+        <center>
+        <figure>
+          <img src="Media/selfie.jpg"
+            width="40%" height="20%" />
+          <figcaption>
+            Figure 1: Selfie with Max Planck, Max Planck for Plasma Physics, Greifswald
+          </figcaption>
+        </figure>      
+        </center>
+   
       
-      <h2 id="research">Research</h2>
-      <h3>Ion Acceleration from Advanced Jet Targets</h3>
-      <p>I assisted preperation for upcoming collaborative experiment with Stanford by modeling experimental setup using CAD software.</p>
-      <center>
-        <div>
+        <h2 id="research">1.3 Research</h2>
+        As a part of my research gap year, and during my academic year, I was fortunate to
+        experience eye-opening, challenging, and life changing research. [...]
+
+        <h3>1.3.1 Simulation Studies for Electron-Ion Collider (EIC) Detector Design</h3>
+        <p>Along with my studies, I work on simulation-based studies of 
+        AC-LGAD (RSD) detectors for the EIC. The goal is to better understand the constraints and requirements for building the 
+        Far-Backward (FB) and Far-Forward (FF) for the anticipated particle accelerator.</p>
+
+        <h3>1.3.2 Construction of Impurity Transport Database, Development of Data Analysis Tools, and Profile Charactrization for Wendelstein 7-X</h3>
+        <p>Fulfilling my dream of working in a nuclear fusion reactor, I was fortunate to take in 
+        Wendelstein 7-X, the world's leading Stellarator research facility.
+        My research focused on the construction of a framework to study impurity transport
+        under neutral beam injection (NBI). The motivation behind
+        this is the understanding of impurity transport for reduction of radiative losses in future fusion powerplants.
+      
+        <center>
+          <div>
+            <figure>
+              <img src="Media/imp_transp.png" style="width: 80%; height: 40%;" />
+              <figcaption>
+                Figure 3: Carbon database color-coded by different parameters. 
+                The tool enables to investigate profile evolution dependence on key fusion parameters.
+              </figcaption>
+            </figure>
+          </div>
+        </center>
+        <br>
+        The talk I gave for my work can be found in <a href="#talks">Talks</a>.
+
+          
+        <h3>X-Ray Flux Optimization by Correction of Optical Components</h3>
+        <p>Motivated by the application of x-ray imaging to medial uses, I programmed optimization codes to optimize x-ray flux from LWFA by real-time correction of optical components.</p>
+        
+        <a href="https://github.com/tom-bleher/ALLS-Multivariable-ADAM-Optimization">
+          <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository">
+        </a>
+
+        <h3>Modeling and Planning of Direct Laser Acceleration (DLA) Deuteron Acceleration from Jet Targets</h3>
+        <p>I assisted preperation for upcoming collaborative experiment with Stanford by modeling experimental setup using CAD software.</p>
+        <center>
+          <div>
+            <figure>
+              <img src="Media/setup.png" style="width: 60%; height: 20%;" />
+              <figcaption>
+                Figure 2: CAD model of Target Normal Sheath Acceleration (TNSA) from converging jet target experiment
+              </figcaption>
+            </figure>
+          </div>
+        </center>
+        <br>
+
+        
+
+  
+
+  
+        <br>
+  
+      
+        <h2 id="research">Activities</h2>
+
+        <h3>MEET - Middle East Entrepreneurs of Tomorrow</h3>
+        <p>I </p>
+
+        <h2 id="appendix">Appendix</h2>
+
+        <h3 id="gallery">Resources</h3>
+        I have some open source code over at my <a href="https://github.com/tom-bleher">GitHub</a>. My talkes include
+        <a href="Media\T. Bleher Internship Report.pdf">IPP</a>
+        <h3 id="gallery">Gallery</h3>
+        <center>
+        <div class="image-container">
           <figure>
-            <img src="Media/setup.png" style="width: 60%; height: 20%;" />
-            <figcaption>
-              Figure 2: CAD model of Target Normal Sheath Acceleration (TNSA) from converging jet target experiment
-            </figcaption>
+              <img src="Media/IMG_3529.jpg" alt="Image 1" />
+              <figcaption>Target Chamber at NePTUN</figcaption>
           </figure>
-        </div>
-      </center>
-      <br>
-
-      <h3>X-ray flux optimization by correction of optical components</h3>
-      <p>Motivated by application of x-ray imaging to medial uses, programmed optimization codes to optimize x-ray flux from LWFA by real-time correction of optical components.</p>
-      
-      <a href="https://github.com/tom-bleher/ALLS-Multivariable-ADAM-Optimization">
-        <img src="https://img.shields.io/badge/GitHub-Repository-blue?logo=github" alt="GitHub Repository">
-    </a>
-      
-      <h3>Construction of impurity transport database framework and analysis of it</h3>
-
-      <center>
-        <div>
           <figure>
-            <img src="Media/imp_transp.png" style="width: 80%; height: 40%;" />
-            <figcaption>
-              Figure 3: Database color-coded by different parameters. The database enables to investigat impurity transport effects on key fusion parameters.
-            </figcaption>
+              <img src="Media/IMG_4162.jpg" alt="Image 2" />
+              <figcaption>Target Chamber at INRS</figcaption>
           </figure>
-        </div>
+      </div>
       </center>
-
-      Final presentation which I presented orally can be found <a href="Media/T. Bleher Internship Report.pdf">here</a>.
-
-      <h3>Electron-ion collider detector design - simulation study</h3>
-
-      <br>
-
-
-      <h2 id="research">Volunteering </h2>
-
-      <h3>MEET - Middle East Entrepreneurs of Tomorrow</h3>
-      <p>I </p>
+      <center>
+          <figure>
+              <img src="Media/IMG_4480.JPG"/>
+              <figcaption>Max Planck at Max Planck for Plasma Physics.</figcaption>
+          </figure>
+    </center>
 
   </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <script>
     MathJax = {
